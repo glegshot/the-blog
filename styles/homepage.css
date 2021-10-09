@@ -30,15 +30,16 @@ header > .blog-header-item > span{
     padding-right: 10px;
 }
 
-section{
+main{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color: white;
     width: 100%;
     color: black;
+    min-height: 100vh;
 }
 
-section > .blog-content{
+main > .blog-content{
     grid-column: 2/3;
     padding-top: 2%;
     padding-bottom: 2%;
